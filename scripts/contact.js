@@ -12,3 +12,8 @@ lastNameInput.addEventListener('change', () => {
     alert('invalid last name');
   }
 });
+
+submitBtn = document.getElementById('submitBtn');
+submitBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+});

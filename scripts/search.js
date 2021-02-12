@@ -5,7 +5,6 @@ $(() => {
     e.preventDefault();
     if (searchInput.value.match(/[^a-z A-Z]/)) {
       alert('invalid search query');
-      console.log('invalid');
     } else {
       $('#results').empty();
       let searchQuery = searchInput.value;
