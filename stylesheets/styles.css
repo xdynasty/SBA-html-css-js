@@ -21,7 +21,8 @@ h2 {
 .main {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fill, 300px);
+  justify-content: center;
 }
 
 .dog-container img {
@@ -50,4 +51,21 @@ label[for='searchInput'] {
 
 .col-2 button {
   width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 5%;
+  background: white;
+}
+
+.fact-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: end;
 }
